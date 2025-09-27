@@ -1,8 +1,8 @@
-# Terraform S3 Bucket Example
+# Terraform S3 Bucket 
 
 This Terraform configuration provisions an **AWS S3 bucket** with:
 
-- Bucket name: `zohort-devops-yourname`
+- Bucket name: `zohort-devops-saurabhkumargupta`
 - Versioning enabled
 - Public access blocked
 - Outputs the bucket name after apply
@@ -14,4 +14,4 @@ terraform init
 terraform apply -auto-approve
 ```
 
-Replace `yourname` in the bucket name with your actual name.
+
